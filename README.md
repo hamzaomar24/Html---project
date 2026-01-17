@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>موقعي الأول</title>
+  <title>موقعي</title>
 </head>
 <body>
 
-  <h1>مرحبا، أنا حمزة</h1>
+<h1>مرحبا أنا حمزة</h1>
 
-  <p>
-    هذا أول موقع إلي  
-    ودا أتعلم HTML خطوة خطوة
-  </p>
+<h2>شنو دا أتعلم؟</h2>
+<ol>
+  <li>HTML</li>
+  <li>وبعدها CSS</li>
+  <li>وبعدها JavaScript</li>
+</ol>
 
-  <h2>اهتماماتي</h2>
-  <p>البرمجة - كرة القدم - تطوير نفسي</p>
-
-  <a href="https://github.com">GitHub</a>
+<h2>تواصل وياي</h2>
+<form>
+  <input type="text" placeholder="اسمك"><br><br>
+  <input type="email" placeholder="ايميلك"><br><br>
+  <button>إرسال</button>
+</form>
 
 </body>
 </html>
-

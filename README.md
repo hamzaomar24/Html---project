@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>موقعي</title>
+  <title>Hamza Website</title>
 </head>
+
 <body>
 
-<h1>مرحبا أنا حمزة</h1>
+<header>
+  <h1>مرحبا بكم في موقعي</h1>
+</header>
 
-<h2>شنو دا أتعلم؟</h2>
-<ol>
-  <li>HTML</li>
-  <li>وبعدها CSS</li>
-  <li>وبعدها JavaScript</li>
-</ol>
+<nav>
+  <a href="#">الرئيسية</a> |
+  <a href="#">من أنا</a> |
+  <a href="#">تواصل</a>
+</nav>
 
-<h2>تواصل وياي</h2>
-<form>
-  <input type="text" placeholder="اسمك"><br><br>
-  <input type="email" placeholder="ايميلك"><br><br>
-  <button>إرسال</button>
-</form>
+<section>
+  <h2>معلوماتي</h2>
+  <table border="1">
+    <tr>
+      <th>الاسم</th>
+      <th>العمر</th>
+      <th>البلد</th>
+    </tr>
+
+    <tr>
+      <td>حمزة</td>
+      <td>25</td>
+      <td>العراق</td>
+    </tr>
+  </table>
+</section>
+
+<footer>
+  <p>© 2026 Hamza</p>
+</footer>
 
 </body>
 </html>
